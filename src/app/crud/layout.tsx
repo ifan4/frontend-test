@@ -5,7 +5,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
+    <div className="px-10 lg:px-0">
         {children}
     </div>
   )
