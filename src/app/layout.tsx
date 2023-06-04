@@ -1,4 +1,3 @@
-'use client'
 import './globals.css'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import { createContext } from 'react'
