@@ -23,7 +23,7 @@ export default function Home() {
     >
       <div className='relative flex justify-center min-h-full min-w-full'>
           <Image 
-          className='lg:absolute bottom-0 lg:w-[500px]'
+          className='lg:absolute bottom-0 lg:w-[400px]'
           src={'/untukmu-aigirl.png'} 
           width={626} 
           height={973} 
