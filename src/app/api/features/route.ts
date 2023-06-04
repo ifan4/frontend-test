@@ -1,7 +1,8 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextApiResponse } from "next";
 import { feature } from "../../../../types/interfaces";
+import { NextRequest } from "next/server";
 
-export async function GET(req:NextApiRequest, res:NextApiResponse) {
+export async function GET(req:NextRequest, res:NextApiResponse) {
     const features:feature[] = [
         {
             image: 'gift1.png',
