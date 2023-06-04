@@ -27,7 +27,7 @@ export function Dropdown_Menu({id}:{id:string}) {
 
 
     const onDelete = (id:string) => {
-        return dispatch(deleteVariant(id))
+        dispatch(deleteVariant(id))
         return toast({
           variant: "default",
           title: "Data Deleted!",
